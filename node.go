@@ -94,7 +94,7 @@ func (n *Node) PrevSibling() *Node {
 	if n.Parent != nil {
 		for i, c := range n.Parent.Children {
 			if c == n {
-				if i >= 0 {
+				if i > 0 {
 					return n.Parent.Children[i-1]
 				}
 				return nil
