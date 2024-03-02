@@ -11,10 +11,10 @@ func TestParseNamespaces(t *testing.T) {
 		expectedAttr map[string]string
 	}{
 		{
-			inputXML: `<root xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/subchen/go-xmldom"></root>`,
+			inputXML: `<root xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/MrSplidge/go-xmldom"></root>`,
 			expectedAttr: map[string]string{
 				"xmlns:xlink": "http://www.w3.org/1999/xlink",
-				"xlink:href":  "https://github.com/subchen/go-xmldom",
+				"xlink:href":  "https://github.com/MrSplidge/go-xmldom",
 			},
 		},
 		{

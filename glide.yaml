@@ -1,4 +1,4 @@
-package: github.com/subchen/go-xmldom
+package: github.com/MrSplidge/go-xmldom
 import:
 - package: github.com/antchfx/xpath
   version: ^1.2.5
